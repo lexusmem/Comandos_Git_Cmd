@@ -75,7 +75,6 @@
 
     > **git remote -v**
 
-
 # Comandos Básicos **CMD**  
 * ### Listar Aquivos e pastas
 
