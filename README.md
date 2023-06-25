@@ -1,5 +1,3 @@
-# TESTE
-
 # Comandos Básicos **Git Bash**  
 * ### Versão do Git
 
@@ -77,6 +75,15 @@
 
     > **git remote -v**
 
+* ### Excluir arquivo commitado do git
+
+    > **git rm "nome_do_arquivo"**  
+
+* ### Restaurar arquivo excluido no git
+
+    > **git log --diff-filter=D --summary**  
+    > **git checkout "id_do_commit"~1 "nome_do_arquivo"**  
+
 # Comandos Básicos **CMD**  
 * ### Listar Aquivos e pastas
 
@@ -121,8 +128,12 @@
 * ### Abrir Arquivo  
 
     > **code "nome_do_arquivo"**  
+    > **start code "nome_do_arquivo"** 
+
+* ### Ler arquivo no terminal  
+
+    > **cat "nome_do_arquivo"**  
 
 * ### Fechar Git Bash  
 
     > **Exit**  
-
