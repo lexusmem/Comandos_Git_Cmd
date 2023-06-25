@@ -54,10 +54,10 @@ Ver alterações realizadas nos arquivos
 git diff
 
 Adicionar o repositorio remoto ao diretorio da maquina
-git remote add origin "verificar pois acho que tem algo aqui"
+git remote add origin "HTTPS_DO_REPOSITORIO_GITHUB"
 
 Comando para envio dos arquivos do repositorio local (maquina) "commitados" para o github (repositorio remoto).
-git push -u origin main "verificar pois acho que tem algo aqui"
+git push -u origin main
 
 Verificar em qual repositorio do githut o seu diretorio da maquina esta vinculado
 git remote -v
