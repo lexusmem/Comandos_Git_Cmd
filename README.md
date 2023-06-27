@@ -75,6 +75,10 @@
 
     > **git remote -v**
 
+* ### Remover repositorio local do git (parar de rastrear determinada pasta)
+
+    > **rm -rf "nome_do_arquivo"**  
+
 * ### Excluir arquivo commitado do git
 
     > **git rm "nome_do_arquivo"**  
@@ -92,6 +96,8 @@
     > **Ls**
 
     > **Ls -a**
+
+    > **Dir -a**  
 
 * ### Acessar pasta Raiz  
 
