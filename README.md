@@ -11,6 +11,8 @@
 
     > **git config --global user.email "seu@email.com"**
 
+> [Youtube Ignôrancia Zero - Git e Github - Setup](https://youtu.be/alxRKszfTck)
+
 * ### Criar Agente no GitBash para vincular ao github
 
     > **eval $(ssh-agent)**
