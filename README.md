@@ -3,7 +3,7 @@
 
     > **git --version**
 
-* ### Configuração do Git informação sobre usuario que esta utilizando o git
+* ### Configuração do Git informação sobre usuário que esta utilizando o git
 
     > **git config --global user.name "Nome_do_usuário"**
 
@@ -11,7 +11,7 @@
 
     > **git config --global user.email "seu@email.com"**
 
-> [Youtube Ignôrancia Zero - Git e Github - Setup](https://youtu.be/alxRKszfTck)
+> [Youtube Ignorância Zero - Git e Github - Setup](https://youtu.be/alxRKszfTck)
 
 * ### Criar Agente no GitBash para vincular ao github
 
@@ -25,15 +25,15 @@
 
     > **ssh -T git@github.com**
 
-* ### Clonar (copiar) um repositorio do github para a maquina (local).
+* ### Clonar (copiar) um repositório do github para a maquina (local).
 
     > **git clone "HTTPS_DO_REPOSITORIO_GITHUB"**
 
-* ### Vincular um repositorio do github com o diretorio local.
+* ### Vincular um repositório do github com o diretório local.
 
     > **git remote set-url origin "SSH_DO_REPOSITORIO_GITHUB"**
 
-* ### Criação de novo repositorio (Adicionar o diretorio "pasta" ao Git)
+* ### Criação de novo repositório (Adicionar o diretório "pasta" ao Git)
 
     > **git init**
 
@@ -41,23 +41,23 @@
 
     > **git branch -m main**
 
-* ### Status dos arquivos se estão no repositorio
+* ### Status dos arquivos se estão no repositório
 
     > **git status**
 
-* ### Adicionar o arquivos do diretorio (repositorio) para rastreio do git
+* ### Adicionar o arquivos do diretório (repositório) para rastreio do git
 
     > **git add "nome_do_arquivo"**
 
-* ### Adicionar todos arquivos do diretorio (repositorio) para rastreio do Git
+* ### Adicionar todos arquivos do diretório (repositório) para rastreio do Git
 
     > **git add .**
 
-* ### Enviar as alterações realizadas no diretorio (repositorio) para registro
+* ### Enviar as alterações realizadas no diretório (repositório) para registro
 
     > **git commit -m "mensagem_informações_sobre_o_commit"**
 
-* ### Mostra o historico de commit realizados
+* ### Mostra o histórico de commit realizados
 
     > **git log**
 
@@ -65,19 +65,19 @@
 
     > **git diff**
 
-* ### Adicionar o repositorio remoto ao diretorio da maquina
+* ### Adicionar o repositório remoto ao diretório da maquina
 
     > **git remote add origin "HTTPS_DO_REPOSITORIO_GITHUB"**
 
-* ### Comando para envio dos arquivos do repositorio local (maquina) "commitados" para o github (repositorio remoto).
+* ### Comando para envio dos arquivos do repositório local (maquina) "repositório" para o github (repositório remoto).
 
     > **git push -u origin main**
 
-* ### Verificar em qual repositorio do githut o seu diretorio da maquina esta vinculado
+* ### Verificar em qual repositório do GitHut o seu diretório da maquina esta vinculado
 
     > **git remote -v**
 
-* ### Remover repositorio local do git (parar de rastrear determinada pasta)
+* ### Remover repositório local do git (parar de rastrear determinada pasta)
 
     > **rm -rf "nome_do_arquivo"**  
 
@@ -85,7 +85,7 @@
 
     > **git rm "nome_do_arquivo"**  
 
-* ### Restaurar arquivo excluido no git
+* ### Restaurar arquivo excluído no git
 
     > **git log --diff-filter=D --summary**  
     > **git checkout "id_do_commit"~1 "nome_do_arquivo"**  
@@ -109,7 +109,7 @@
 
     > **Cd "nome_da_pasta"**  
 
-* ### Acessar nivel anterior da pasta  
+* ### Acessar nível anterior da pasta  
 
     > **Cd ..**  
 
@@ -127,7 +127,7 @@
 
 * ### Deletar Arquivo
 
-    > **rm > "nome_do_arquivo.txt"**
+    > **rm "nome_do_arquivo.txt"**
 
 * ### Limpar tela  
 
