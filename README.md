@@ -45,6 +45,14 @@
 
     > **git status**
 
+* ### Verificar se o repositorio local esta atualizado com relação ao Github online (site)
+
+    > **git fetch**
+
+* ### Atualizar repositorio local conforme consta online no Github
+
+    > **git pull**
+
 * ### Adicionar o arquivos do diretório (repositório) para rastreio do git
 
     > **git add "nome_do_arquivo"**
