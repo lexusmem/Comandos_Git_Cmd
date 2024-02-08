@@ -121,6 +121,10 @@
 
     > **Cd ..**  
 
+* ### Acessar outra unidade  
+
+    > **X:**
+
 * ### Criar Pasta  
 
     > **mkdir > "nome_da_pasta"**  
@@ -132,6 +136,10 @@
 * ### Criar Arquivo
 
     > **echo > "nome_do_arquivo.txt"**
+
+* ### Criar arquivo com lista nome dos arquivos que consta na pasta
+
+    > **dir> "nome_do_arquivo.txt"**
 
 * ### Deletar Arquivo
 
