@@ -45,11 +45,11 @@
 
     > **git status**
 
-* ### Verificar se o repositorio local esta atualizado com relação ao Github online (site)
+* ### Verificar se o repositório local esta atualizado com relação ao Github online (site)
 
     > **git fetch**
 
-* ### Atualizar repositorio local conforme consta online no Github
+* ### Atualizar repositório local conforme consta online no Github
 
     > **git pull**
 
