@@ -45,6 +45,14 @@
 
     > **git status**
 
+* ### Verificar se o repositório local esta atualizado com relação ao Github online (site)
+
+    > **git fetch**
+
+* ### Atualizar repositório local conforme consta online no Github
+
+    > **git pull**
+
 * ### Adicionar o arquivos do diretório (repositório) para rastreio do git
 
     > **git add "nome_do_arquivo"**
@@ -122,6 +130,10 @@
 
     > **Cd ..**  
 
+* ### Acessar outra unidade  
+
+    > **X:**
+
 * ### Criar Pasta  
 
     > **mkdir > "nome_da_pasta"**  
@@ -133,6 +145,10 @@
 * ### Criar Arquivo
 
     > **echo > "nome_do_arquivo.txt"**
+
+* ### Criar arquivo com lista nome dos arquivos que consta na pasta
+
+    > **dir> "nome_do_arquivo.txt"**
 
 * ### Deletar Arquivo
 
