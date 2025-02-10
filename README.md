@@ -61,6 +61,15 @@
 
     > **git log**
 
+* ### Mostra o histórico de commit realizados e comparar e informa a diferença entre o HEAD main (commits na maquina/branch local) e o que consta no origin/main (commits remoto/salvo na nuvem)
+
+    > **git log --oneline --all**
+    > **git fetch**
+
+* ### Para baixar mudanças do remoto
+
+    > **git fetch origin main**
+
 * ### Ver alterações realizadas nos arquivos
 
     > **git diff**
