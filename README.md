@@ -11,7 +11,7 @@
 
     > **git config --global user.email "seu@email.com"**
 
-> [Youtube Ignorância Zero - Git e Github - Setup](https://youtu.be/alxRKszfTck)
+    > [Youtube Ignorância Zero - Git e Github - Setup](https://youtu.be/alxRKszfTck)
 
 * ### Criar Agente no GitBash para vincular ao github
 
@@ -45,11 +45,11 @@
 
     > **git status**
 
-* ### Verificar se o repositório local esta atualizado com relação ao Github online (site)
+* ### Se você quiser ver as mudanças que ocorreram no repositório remoto antes de integrá-las ao seu trabalho local. Depois de executar git fetch. Este comando baixa os commits e objetos do seu repositório remoto(que esta no github) que ainda não existem no seu repositório local(na maquina). Ele atualiza as remote-tracking branches (como origin/main), mas não tenta integrar essas mudanças em seus branches locais. É uma forma segura de verificar o que mudou no remoto antes de fazer qualquer alteração local.
 
     > **git fetch**
 
-* ### Atualizar repositório local conforme consta online no Github
+* ### Se você quiser baixar as mudanças do repositório remoto e integrá-las imediatamente ao seu branch local atual. Este comando é uma combinação de git fetch e git merge. Ele baixa as mudanças do repositório remoto (Github) e depois tenta integrar essas mudanças no seu branch local atual. Este comando pode resultar em merge conflicts se você tiver alterações locais que conflitam com as alterações remotas.
 
     > **git pull**
 
@@ -72,11 +72,18 @@
 * ### Mostra o histórico de commit realizados e comparar e informa a diferença entre o HEAD main (commits na maquina/branch local) e o que consta no origin/main (commits remoto/salvo na nuvem)
 
     > **git log --oneline --all**
-    > **git fetch**
 
-* ### Para baixar mudanças do remoto
+    > **git log --oneline --all --format="%h %as %d %s"**
 
-    > **git fetch origin main**
+    Neste comando:
+
+    * `%h`: exibe o hash abreviado do commit.
+
+    * `%as`: exibe a data do autor no formato short.
+
+    * `%d`: exibe as referências (branches, tags) que apontam para o commit.
+
+    * `%s`: exibe a mensagem do commit.
 
 * ### Ver alterações realizadas nos arquivos
 
